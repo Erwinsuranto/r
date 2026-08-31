@@ -9,7 +9,7 @@
 ```
 # 
 ```
-
+Get-NetFirewallProfile | Select-Object Name, Enabled, DefaultInboundAction
 ```
 # 
 ```
