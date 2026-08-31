@@ -1,6 +1,8 @@
 # r
 
 
+
+
 # 
 ```
 
@@ -8,6 +10,14 @@
 # 
 ```
 
+```
+# 
+```
+iptables -L FORWARD -n -v
+```
+# 
+```
+iptables -t nat -L PREROUTING -n -v
 ```
 # 
 ```
