@@ -1,11 +1,17 @@
 # r
 
 
-
-
 # 
 ```
 
+```
+# 
+```
+
+```
+# 
+```
+Get-NetFirewallRule -DisplayGroup "Remote Desktop" | Where-Object Enabled -eq "True" | Get-NetFirewallPortFilter | Select-Object Protocol, LocalPort
 ```
 # 
 ```
